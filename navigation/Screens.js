@@ -23,8 +23,8 @@ const Drawer = createDrawerNavigator();
 
 const profile = {
   avatar: Images.Profile,
-  name: "Rachel Brown",
-  type: "Seller",
+  name: "Rayan Rio",
+  type: "Producer",
   plan: "Pro",
   rating: 4.8
 };

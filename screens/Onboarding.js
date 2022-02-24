@@ -24,13 +24,16 @@ export default class Onboarding extends React.Component {
           <Block flex space="around" style={{ zIndex: 2 }}>
             <Block>
               <Block>
-                <Text color="white" size={60}>Material</Text>
+                <Text color="white" size={60}>Welcome to</Text>
               </Block>
               <Block row>
-                <Text color="white" size={60}>Kit</Text>
+                <Text color="white" size={60}>CineCast</Text>
+              </Block>
+              <Block row>
+                <Text color="white" size={40}></Text>
               </Block>
               <Text size={16} color='rgba(255,255,255,0.6)'>
-                Fully coded React Native components.
+                Show your skills & good luck.
               </Text>
             </Block>
             <Block center>
@@ -60,7 +63,7 @@ const styles = StyleSheet.create({
   },
   button: {
     width: width - theme.SIZES.BASE * 4,
-    height: theme.SIZES.BASE * 3,
+    height: theme.SIZES.BASE * 4,
     shadowRadius: 0,
     shadowOpacity: 0,
   },

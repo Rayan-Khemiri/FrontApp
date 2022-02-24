@@ -27,20 +27,20 @@ export default class Pro extends React.Component {
             <Block>
               <Block >
                 <Block>
-                  <Text color="white" size={60}>Unlock</Text>
+                  <Text color="white" size={50}>CineCast</Text>
                 </Block>
                 <Block>
-                  <Text color="white" size={60}>Material</Text>
+                  <Text color="white" size={60}>Premuim</Text>
                 </Block>
                 <Block row>
-                  <Text color="white" size={60}>Kit</Text>
+                  <Text color="white" size={40}>production</Text>
                   <Block middle style={styles.pro}>
                     <Text size={16} color="white">PRO</Text>
                   </Block>
                 </Block>
               </Block>
               <Text size={16} color='rgba(255,255,255,0.6)'>
-                Take advantage of all the features and screens made upon Galio Design System, coded on React Native for both.
+                Find your first role in production and show your skills.
               </Text>
               <Block row style={{ marginTop: theme.SIZES.BASE * 1.5, marginBottom: theme.SIZES.BASE * 4 }}>
                 <Image

@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     elevation: 4,
   },
   tab: {
-    backgroundColor: theme.COLORS.TRANSPARENT,
+    backgroundColor: theme.COLORS.BLACK,
     width: width * 0.50,
     borderRadius: 0,
     borderWidth: 0,

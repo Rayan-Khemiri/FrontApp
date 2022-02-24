@@ -21,13 +21,13 @@ export default class Profile extends React.Component {
             imageStyle={styles.profileImage}>
             <Block flex style={styles.profileDetails}>
               <Block style={styles.profileTexts}>
-                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Rachel Brown</Text>
+                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Rayan Rio</Text>
                 <Block row space="between">
                   <Block row>
                     <Block middle style={styles.pro}>
-                      <Text size={16} color="white">Pro</Text>
+                      <Text size={6.5} color="white">Premium</Text>
                     </Block>
-                    <Text color="white" size={16} muted style={styles.seller}>Seller</Text>
+                    <Text color="white" size={16} muted style={styles.seller}>Producer</Text>
                     <Text size={16} color={materialTheme.COLORS.WARNING}>
                       4.8 <Icon name="shape-star" family="GalioExtra" size={14} />
                     </Text>
@@ -35,8 +35,8 @@ export default class Profile extends React.Component {
                   <Block>
                     <Text color={theme.COLORS.MUTED} size={16}>
                       <Icon name="map-marker" family="font-awesome" color={theme.COLORS.MUTED} size={16} />
-                      {` `} Los Angeles, CA
-                      </Text>
+                      {` `} Tunis, TN  
+                    </Text>
                   </Block>
                 </Block>
               </Block>
